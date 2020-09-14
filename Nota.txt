@@ -1,0 +1,1 @@
+Poner todos los html aqui  para que no tengamos que ponerle la ruta completa al llamarlos.
