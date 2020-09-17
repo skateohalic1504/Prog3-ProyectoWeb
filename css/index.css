@@ -1,0 +1,9 @@
+.container {
+	margin-top: 6rem;
+	justify-content: center;
+	text-align: center; 
+}
+
+.card {
+	text-align: left;
+}
