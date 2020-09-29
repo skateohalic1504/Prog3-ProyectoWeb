@@ -65,12 +65,12 @@ const Cards = () => {
         <Card className="card" style={{ width: '18rem' }}>
             <Card.Img className="pic" variant="top" src="/img/4.jpg" />
             <Card.Body>
-                <Card.Title>Darl</Card.Title>
+                <Card.Title>Darlin Santana</Card.Title>
                 <Card.Text>
                 <ul className="id">
-                    <li>N/A</li>
+                    <li>2017-5032</li>
                     <li>Back-End</li>
-                    <li>@itla.edu.do</li>
+                    <li>20175032@itla.edu.do</li>
                 </ul>
                 </Card.Text>
             </Card.Body>
