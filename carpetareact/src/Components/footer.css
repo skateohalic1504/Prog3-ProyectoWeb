@@ -1,0 +1,32 @@
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.footerContent{
+    display: flex;
+    flex-shrink: 0;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-align: left;
+    color: white;
+}
+
+h4{
+    margin-top:1rem;
+}
+
+

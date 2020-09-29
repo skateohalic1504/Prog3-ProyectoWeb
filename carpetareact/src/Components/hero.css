@@ -1,0 +1,22 @@
+
+.d-block{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.sliderTittle{
+    color: white;
+    text-shadow: black 3px;
+}
+
+.jumbo{
+    height: 500px;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+}
+
+.jumboText{
+    margin-top: 2rem;
+    color: white;
+}
