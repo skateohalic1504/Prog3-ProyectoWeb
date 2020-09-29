@@ -1,11 +1,9 @@
 .cards{
     margin-top: 4rem;
     margin-left: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-    
+    display: flex;   
+    flex-wrap: wrap; 
+    justify-content: center;
 }
 
 .search{
@@ -25,4 +23,8 @@
     top: -4px;
     border: 1px solid #cccccc;
     background-color: white;
+}
+
+.id{
+    text-align: left;
 }

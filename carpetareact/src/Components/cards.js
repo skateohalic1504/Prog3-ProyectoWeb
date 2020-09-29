@@ -9,24 +9,84 @@ const Cards = () => {
         <Card className="card" style={{ width: '18rem' }}>
             <Card.Img className="pic" variant="top" src="/img/profile.jpg" />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Eddy Vicente</Card.Title>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                <ul className="id">
+                    <li>2016-4262</li>
+                    <li>Base de Datos</li>
+                    <li>20164262@itla.edu.do</li>
+                </ul>
                 </Card.Text>
-                <Button variant="outline-dark">Go somewhere</Button>
             </Card.Body>
         </Card>
         
         <Card className="card" style={{ width: '18rem' }}>
-            <Card.Img className="pic" variant="top" src="/img/profile.jpg" />
+            <Card.Img className="pic" variant="top" src="/img/10.jpg" />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Jeffrey Ortiz</Card.Title>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                <ul className="id">
+                    <li>2017-4893</li>
+                    <li>Front-End</li>
+                    <li>20174893@itla.edu.do</li>
+                </ul>
                 </Card.Text>
-                <Button variant="outline-dark">Go somewhere</Button>
+            </Card.Body>
+        </Card>
+
+        <Card className="card" style={{ width: '18rem' }}>
+            <Card.Img className="pic" variant="top" src="/img/1.jpg" />
+            <Card.Body>
+                <Card.Title>Alfredo Linarez</Card.Title>
+                <Card.Text>
+                <ul className="id">
+                    <li>2017-4800</li>
+                    <li>Front-End</li>
+                    <li>20174800@itla.edu.do</li>
+                </ul>
+                </Card.Text>
+            </Card.Body>
+        </Card>
+
+        <Card className="card" style={{ width: '18rem' }}>
+            <Card.Img className="pic" variant="top" src="/img/3.jpg" />
+            <Card.Body>
+                <Card.Title>Wilfred Medina</Card.Title>
+                <Card.Text>
+                <ul className="id">
+                    <li>N/A</li>
+                    <li>Base de Datos</li>
+                    <li>@itla.edu.do</li>
+                </ul>
+                </Card.Text>
+            </Card.Body>
+        </Card>
+
+        <Card className="card" style={{ width: '18rem' }}>
+            <Card.Img className="pic" variant="top" src="/img/4.jpg" />
+            <Card.Body>
+                <Card.Title>Darl</Card.Title>
+                <Card.Text>
+                <ul className="id">
+                    <li>N/A</li>
+                    <li>Back-End</li>
+                    <li>@itla.edu.do</li>
+                </ul>
+                </Card.Text>
+            </Card.Body>
+        </Card>
+
+        <Card className="card" style={{ width: '18rem' }}>
+            <Card.Img className="pic" variant="top" src="/img/2.jpg" />
+            <Card.Body>
+                <Card.Title>Erick Diaz</Card.Title>
+                <Card.Text>
+                <ul className="id">
+                    <li>N/A</li>
+                    <li>Back-End</li>
+                    <li>@itla.edu.do</li>
+                </ul>
+                </Card.Text>
             </Card.Body>
         </Card>
         </div>
