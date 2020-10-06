@@ -1,0 +1,65 @@
+
+
+<div class="col-md-9 mx-auto">
+    <div class="card">
+        <div class="card-header">
+<h1>Publicar Empleo</h1>
+        </div>
+        <div class="card-body">
+            <form action="/jobs/new-job" method="POST">
+            <div class="form-group">
+                <label for="company">Compañia: </label>
+                <input type="text" id="company" name="company" class="form-control" autofocus>
+            </div>
+            <div class="form-group">
+                <label for="tipo">Selecciona el tipo de empleo: </label>
+             <select name="tipo" id="tipo" class="form-control">
+                <option value="Full-Time">Full-Time</option>
+                <option value="Part-Time">Part-Time</option>
+                <option value="Freelance">Freelance</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="logo">Logo: </label>
+                <input type="file" name="logo" id="logo" class="form-control">
+            </div>
+          <div class="form-group">
+              <label for="url">URL: </label>
+              <input type="text" name="url" id="url" class="form-control">
+          </div>
+          <div class="form-group">
+              <label for="position">Posición: </label>
+              <input type="text" name="position" id="position" class="form-control">
+          </div>
+          <div class="form-group">
+              <label for="location">Ubicación: </label>
+              <input type="text" name="location" id="location" class="form-control">
+          </div>
+          <div class="form-group">
+              <label for="category">Categorías: </label>
+              <select name="category" id="category" class="form-control">
+                <option value="1">Uno</option>
+                <option value="2">Dos</option>
+                <option value="3">Tres</option>
+                </select>
+          </div>
+          <div class="form-group">
+              <label for="description">Descripción: </label>
+              <textarea name="description" id="description" class="form-control" ></textarea>
+          </div>
+          <div class="form-group">
+              <button class="btn btn-primary btn-block" type="submit">Publicar</button>
+          </div>
+
+
+            
+            
+            
+            
+            
+            
+            
+            </form>
+        </div>
+    </div>
+</div>
