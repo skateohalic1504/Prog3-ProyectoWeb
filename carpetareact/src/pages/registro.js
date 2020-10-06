@@ -70,7 +70,7 @@ const Registro = () => {
                 </Form.Row>
 
                 <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>Provincia</Form.Label>
+                    <Form.Label>Carrera</Form.Label>
                     <Form.Control as="select" defaultValue="Escoja...">
                         <option>Escoja...</option>
                         <option>FullStack Developer</option>

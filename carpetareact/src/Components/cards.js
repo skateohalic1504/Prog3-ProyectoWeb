@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Button, InputGroup, FormControl, Dropdown} from 'react-bootstrap';
+import {Card} from 'react-bootstrap';
 import './cards.css';
 
 const Cards = () => {
@@ -79,7 +79,7 @@ const Cards = () => {
         <Card className="card" style={{ width: '18rem' }}>
             <Card.Img className="pic" variant="top" src="/img/2.jpg" />
             <Card.Body>
-                <Card.Title>Erick Diaz</Card.Title>
+                <Card.Title>Erick Brito</Card.Title>
                 <Card.Text>
                 <ul className="id">
                     <li>N/A</li>
