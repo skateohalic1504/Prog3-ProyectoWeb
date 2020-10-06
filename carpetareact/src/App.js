@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+
 //pages
 import Home from './pages/home';
 import Entrar from './pages/login';
@@ -14,6 +15,7 @@ from 'react-router-dom';
 
 
 function App() {
+
   return (
     <>
     <Router>
